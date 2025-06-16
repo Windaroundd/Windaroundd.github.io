@@ -1,0 +1,33 @@
+@media screen and (max-width: 580px) {
+  /* And even smaller */
+
+  .navbar-menu .navbar-container {
+    display: block;
+  }
+  .navbar-menu .navbar-container .navbar-item {
+    display: block;
+    border-left: unset;
+  }
+
+  .personal-info {
+    display: block;
+  }
+  .personal-info .goal,
+  .personal-info .info {
+    display: block;
+    width: 100%;
+  }
+
+  .career-information .career-information-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .award .award-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .project .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}

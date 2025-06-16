@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+  /* style changes when the screen gets smaller */
+  .avatar-container .avatar {
+    display: none;
+  }
+  .career-information .career-information-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .award .award-image {
+    width: 200px;
+  }
+  .award .award-detail {
+    display: block;
+  }
+  .cv-title {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 10px;
+  }
+}
